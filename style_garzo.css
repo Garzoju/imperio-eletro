@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(13, 168, 155);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    width: 100%;
+}
+
+header img {
+    width: 125px;
+    height: 125px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140vh;
+}
+
+section h3 {
+    margin-top: -30px;
+    text-align: center;
+}
+
+.plano-de-fundo {
+    background-image: url(imagem/imagemsprint3.jpg);
+    width: 100%;
+    height: 140vh;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+form input,
+form textarea {
+    padding: 20px;
+    min-width: 300px;
+    border: 1px solid rgb(6, 6, 6);
+    border-radius: 10px;
+}
+
+form input:focus,
+form textarea:focus {
+    background-color: rgb(216, 215, 212);
+}
+
+form input [type=submit] {
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+}
+
+form label {
+    margin-left: 10px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(235, 222, 42);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, #99a3a3 75%, #99a3a3 75%);
+}
+
+#form {
+    position: static;
+    background: #1ba3a3;
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: -100px;
+}
+
+/*pagina de finalizacao*/
+
+.finalizacao-fundo {
+    background-image: url(imagem/Imagem-2.png);
+    width: 500px;
+    height: 500px;
+    margin: 80px auto;
+}
+
+.btn {
+
+    display: flex;
+    color: #1ba3a3;
+    padding: 10px;
+    border-radius: 90px;
+    transition: background 0.5s, color 0.3s, opacity 1s;
+    margin-top: 250px;
+    /* margin-left: 40px; */
+}
+
+/*pagina inicial*/
+
+.pagina-inicial-fundo {
+    /* background-image: url(imagem/imageminicial1.jpg); */
+    background-image: url(imagem/imageminicial1.jpg);
+    width: 100%;
+    height: 120vh;
+}
+
+.btn-entrar input {
+    width: 100px;
+    margin-left: 7px;
+    background-color: rgb(247, 235, 2);
+}
+
+
+
+.btn-login input {
+    width: 100px;
+    margin-left: 7px;
+    background-color: white;
+}
+
+.btn-Senha input {
+    width: 100px;
+    margin-left: 7px;
+    background-color: rgb(0, 212, 250);
+}
+
+#form-inicial {
+    position: relative;
+    background: #db4dff;
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 120px;
+    position: static;
+}
+
+.termo {
+    display: flex;
+}
+
+.termo li {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    gap: 2rem;
+    margin-bottom: 3rem;
+    list-style: none;
+}
+
+.termo li a {
+    text-decoration: none;
+}
+
+.politicas {
+    background-color: rgb(235, 222, 42);
+    text-align: center;
+    font-family: sans-serif;
+}
+
