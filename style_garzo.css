@@ -16,8 +16,12 @@ header {
 }
 
 header img {
-    width: 125px;
-    height: 125px;
+    width: 45px;
+    height: 45px;
+}
+
+.barra-de-menu-cadastro {
+    margin-left: 120px;
 }
 
 section {
@@ -59,7 +63,7 @@ form textarea:focus {
 
 form input[type="submit"] {
     background-color: cornflowerblue;
-    color: white;
+    color: rgb(6, 6, 6);
     cursor: pointer;
 }
 
@@ -137,7 +141,8 @@ body {
 .btn-login input {
     width: 100px;
     margin-left: 7px;
-    background-color: white;
+    background-color: rgb(18, 17, 17);
+   
 }
 
 .btn-Senha input {
@@ -183,9 +188,5 @@ body {
     margin-left: -550px;
 }
 
-/*produtos de compra*/
-.barra-de-menu-produtos {
-    width: 30px;
-    height: 30px;
-}
+
 
